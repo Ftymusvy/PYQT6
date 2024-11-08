@@ -27,9 +27,7 @@ class MyWindow(QWidget):
         # self.button.setIcon(QIcon('logo.png'))
 
 
-       # self.create_widget()
-    #     self.create_qline_edit()
-    #     self.clicked()
+  
 
 
     # def create_qline_edit(self):
@@ -58,7 +56,7 @@ class MyWindow(QWidget):
     #     hbox.addSpacing(100)
     #     hbox.setStretch(10 ,10)
 
-    #     self.setLayout(hbox)
+    #   self.setLayout(hbox)
         self.lcd =QLCDNumber()
         self.lcd.setStyleSheet('background:blue')
         self.hbox=QHBoxLayout()
